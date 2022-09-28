@@ -3,36 +3,42 @@
         "id": 1,
         "name": "Dumble",
         "required_time": 30,
+        "for_age": "20-25",
         "image": "https://cdn.shopify.com/s/files/1/0052/6080/4167/products/ScreenShot2020-09-15at09.38.37_512x423.png?v=1623860153"
     },
     {
         "id": 2,
-        "name": "Gear",
-        "required_time": 30,
-        "image": ""
+        "name": "Power Tower",
+        "required_time": 35,
+        "for_age": "21-24",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHtVrUbyZIM1msshmUmrpmYvBHUY_qhNi1Mf7xRLolx4VnLdSHpVr1JMOyUUuuKbm3VyA&usqp=CAU"
     },
     {
         "id": 3,
-        "name": "Treadmill",
-        "required_time": 30,
-        "image": "https://unsplash.com/photos/JA2S6sJWleg"
+        "name": "Adjustable Weight Bench",
+        "required_time": 25,
+        "for_age": "25-30",
+        "image": "https://www.nsngym.com/wp-content/uploads/2021/07/n80-nsn-gym-weight-bench-660-lbs-apacity-press-adjustable-workout-bench-for-home-gym-exercise-strength-training-5.jpg"
     },
     {
         "id": 3,
-        "name": "Treadmill",
-        "required_time": 30,
-        "image": "https://unsplash.com/photos/JA2S6sJWleg"
+        "name": "Chest Press Machine",
+        "required_time": 40,
+        "for_age": "28-30",
+        "image": "https://webapi-prod.technogym.com/dw/image/v2/BFLQ_PRD/on/demandware.static/-/Sites-tg-catalog-master/default/dwb01f9b1a/product/MG1500-NBGJV0/MG1500_purestrength_inclinechestpress_related_01_22.jpg?sw=680&sh=680"
     },
     {
         "id": 3,
-        "name": "Treadmill",
-        "required_time": 30,
-        "image": "https://unsplash.com/photos/JA2S6sJWleg"
+        "name": "Roman Chair",
+        "required_time": 45,
+        "for_age": "30-35",
+        "image": "https://www.fitnessequipmentperth.com.au/wp-content/uploads/2019/11/C616RC_2015-800x800.jpg"
     },
     {
         "id": 3,
-        "name": "Treadmill",
-        "required_time": 30,
-        "image": "https://unsplash.com/photos/JA2S6sJWleg"
+        "name": "Leg Press Machine",
+        "required_time": 50,
+        "for_age": "20-35",
+        "image": "https://www.strengthshop.co.uk/media/catalog/product/cache/f5c5a81670b99358961f461bdf85442d/l/e/leg-press-loaded.jpg"
     }
 ]
