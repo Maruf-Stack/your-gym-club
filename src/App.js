@@ -1,10 +1,15 @@
 
 import './App.css';
+import Header from './component/header/Header';
+import Profile from './component/profile/Profile';
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Testing git</h1>
+
+      <Header></Header>
+      <Profile></Profile>
     </div>
   );
 }
