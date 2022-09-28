@@ -21,7 +21,7 @@
     display: flex;
     justify-content: space-around;
     background-color: rgb(243, 227, 255);
-    border-radius: 8px;
+    border-radius: 12px;
     margin-top: 30px;
 }
 
@@ -48,7 +48,7 @@
     justify-content: space-around;
     padding: 0px 4px;
     background-color: rgb(243, 227, 255);
-    border-radius: 7px;
+    border-radius: 12px;
 }
 
 .break-time h4 {
@@ -61,4 +61,34 @@
 
 .add-break {
     color: rgba(0, 0, 0, 0.877);
+}
+
+.exercise-details {
+    color: rgba(0, 0, 0, 0.829);
+    margin-top: 50px;
+}
+
+.ex-time {
+    padding: 6px 15px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    background-color: rgb(243, 227, 255);
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.break-time-count {
+    padding: 6px 15px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    background-color: rgb(243, 227, 255);
+    border-radius: 12px;
+}
+
+.time {
+    color: rgba(0, 0, 0, 0.637);
 }
