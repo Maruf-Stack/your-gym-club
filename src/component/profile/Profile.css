@@ -1,0 +1,64 @@
+.profile {
+    background-color: rgb(255, 255, 255);
+    height: 90vh;
+    position: sticky;
+    top: 0;
+    padding: 25px 20px;
+    border-radius: 10px;
+}
+
+.my-name {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: -10px;
+}
+
+.location {
+    color: rgba(0, 0, 0, 0.425);
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(243, 227, 255);
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.span {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.644);
+}
+
+.info h2 {
+    margin-bottom: -12px;
+    font-size: 23px;
+    color: rgba(0, 0, 0, 0.863);
+}
+
+.info h3 {
+    font-size: 17px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.658);
+}
+
+.break-time {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 4px;
+    background-color: rgb(243, 227, 255);
+    border-radius: 7px;
+}
+
+.break-time h4 {
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 50%;
+    border: none;
+    background-color: aliceblue;
+}
+
+.add-break {
+    color: rgba(0, 0, 0, 0.877);
+}

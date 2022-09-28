@@ -4,7 +4,9 @@
 
   display: grid;
   grid-template-columns: 3fr 1fr;
+  gap: 40px;
   background-color: whitesmoke;
+  margin-bottom: 100px;
 
 }
 
