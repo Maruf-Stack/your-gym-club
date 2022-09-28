@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Dumble",
+        "required_time": 30,
+        "image": "https://cdn.shopify.com/s/files/1/0052/6080/4167/products/ScreenShot2020-09-15at09.38.37_512x423.png?v=1623860153"
+    },
+    {
+        "id": 2,
+        "name": "Gear",
+        "required_time": 30,
+        "image": ""
+    },
+    {
+        "id": 3,
+        "name": "Treadmill",
+        "required_time": 30,
+        "image": "https://unsplash.com/photos/JA2S6sJWleg"
+    },
+    {
+        "id": 3,
+        "name": "Treadmill",
+        "required_time": 30,
+        "image": "https://unsplash.com/photos/JA2S6sJWleg"
+    },
+    {
+        "id": 3,
+        "name": "Treadmill",
+        "required_time": 30,
+        "image": "https://unsplash.com/photos/JA2S6sJWleg"
+    },
+    {
+        "id": 3,
+        "name": "Treadmill",
+        "required_time": 30,
+        "image": "https://unsplash.com/photos/JA2S6sJWleg"
+    }
+]

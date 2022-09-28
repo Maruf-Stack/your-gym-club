@@ -1,6 +1,6 @@
 
 import './App.css';
-import Header from './component/header/Header';
+import Header from './component/header and card/Header';
 import Profile from './component/profile/Profile';
 
 
@@ -10,6 +10,7 @@ function App() {
 
       <Header></Header>
       <Profile></Profile>
+
     </div>
   );
 }
