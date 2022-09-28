@@ -36,14 +36,16 @@ const Profile = () => {
             <div>
                 <h3 className='exercise-details'>Exercise details</h3>
                 <div className='ex-time'>
-                    <p>Exercise time</p>
+                    <p className='ex'>Exercise time</p>
                     <p className='time'><span>00</span>seconds</p>
                 </div>
                 <div className='break-time-count'>
-                    <p>Break time</p>
+                    <p className='br'>Break time</p>
                     <p className='time'><span>00</span>seconds</p>
                 </div>
             </div>
+
+            <button className='activity-btn'>Activity Completed</button>
 
         </div>
     );

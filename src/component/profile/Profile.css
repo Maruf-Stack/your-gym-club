@@ -92,3 +92,30 @@
 .time {
     color: rgba(0, 0, 0, 0.637);
 }
+
+.ex {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.836);
+    font-size: 17px;
+}
+
+.br {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.836);
+    font-size: 17px;
+}
+
+.activity-btn {
+    margin-top: 50px;
+    padding: 20px 80px;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgba(248, 229, 203, 0.89);
+    color: rgba(0, 0, 0, 0.877);
+}
+
+.activity-btn:hover {
+    background-color: beige;
+}
