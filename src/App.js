@@ -1,4 +1,4 @@
-
+import React from 'react'
 import './App.css';
 import Card from './component/card/Card';
 import Cards from './component/cards/Cards';
@@ -11,7 +11,6 @@ function App() {
 
   return (
     <div className="App">
-
       <Header></Header>
       <Cards></Cards>
       <Que></Que>
