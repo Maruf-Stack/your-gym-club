@@ -13,22 +13,23 @@ const Cards = () => {
             .then(res => res.json())
             .then(data => setCards(data))
     }, []);
-    // useEffect(() => {
-    //     const storedCart = getStoredCart();
-    //     const saveCart = [];
-    //     for (const id in storedCart) {
-    //         const addedProduct = cards.find(card => card.id === id);
-    //         if (addedProduct) {
-    //             const quantity = storedCart[id];
-    //             addedProduct.quantity = quantity;
-    //             saveCart.push(addedProduct)
-    //         }
-    //     }
-    //     setCount(saveCart)
-    // }, []);
+    useEffect(() => {
+        const storedCart = getStoredCart();
+        const saveCart = [];
+        for (const id in storedCart) {
+            const addedProduct = cards.find(card => card.id === id);
+            if (addedProduct) {
+                const quantity = storedCart[id];
+                addedProduct.quantity = quantity;
+                saveCart.push(addedProduct)
+            }
+        }
+        setCount(saveCart)
+    }, []);
     const handleClick = (card) => {
         const newCount = [...count, card];
         setCount(newCount)
+        addToDb(card)
 
     }
     return (

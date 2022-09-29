@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { addToDb } from '../../utilities/fakedb';
 import './Profile.css'
 
 const Profile = (props) => {
     const { count } = props;
-    console.log(count)
 
     let total = 0;
     for (const time of count) {
@@ -55,7 +55,7 @@ const Profile = (props) => {
 
             <button className='activity-btn'>Activity Completed</button>
 
-        </div>
+        </div >
     );
 };
 
