@@ -1,7 +1,15 @@
 import React from 'react';
 import './Profile.css'
 
-const Profile = () => {
+const Profile = (props) => {
+    const { count } = props;
+    console.log(count)
+
+    let total = 0;
+    for (const time of count) {
+        total = total + time.required_time;
+    }
+
     return (
         <div className='profile'>
             <div>
@@ -10,15 +18,15 @@ const Profile = () => {
             </div>
             <div className='info'>
                 <div>
-                    <h2>75<span className='span'>kg</span></h2>
+                    <h2>52<span className='span'>kg</span></h2>
                     <h3>Weight</h3>
                 </div>
                 <div>
-                    <h2>6.5</h2>
+                    <h2>5.3</h2>
                     <h3>Height</h3>
                 </div>
                 <div>
-                    <h2>25<span className='span'>years</span></h2>
+                    <h2>20<span className='span'>years</span></h2>
                     <h3>Age</h3>
                 </div>
 
@@ -37,7 +45,7 @@ const Profile = () => {
                 <h3 className='exercise-details'>Exercise details</h3>
                 <div className='ex-time'>
                     <p className='ex'>Exercise time</p>
-                    <p className='time'><span>00</span>seconds</p>
+                    <p className='time'><span>{total}</span>seconds</p>
                 </div>
                 <div className='break-time-count'>
                     <p className='br'>Break time</p>

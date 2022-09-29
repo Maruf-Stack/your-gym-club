@@ -10,9 +10,6 @@ const Header = () => {
         <div className='header'>
             <h2 className='main-header'><span className='icon'><FontAwesomeIcon icon={faDumbbell}></FontAwesomeIcon></span> Your Gym Club</h2>
             <p className='select'>Select your today's exercise</p>
-            <Cards></Cards>
-
-
         </div>
     );
 };

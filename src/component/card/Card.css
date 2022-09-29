@@ -21,6 +21,7 @@
 
 .card p {
     font-weight: 500;
+    margin-bottom: -10px;
 }
 
 .add-btn {
@@ -37,4 +38,12 @@
 
 .add-btn:hover {
     background-color: beige;
+}
+
+@media screen and (max-width:767px) {
+    .card {
+        width: 100vw;
+        margin-bottom: 20px;
+
+    }
 }

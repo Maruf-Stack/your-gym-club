@@ -21,21 +21,21 @@
         "image": "https://www.nsngym.com/wp-content/uploads/2021/07/n80-nsn-gym-weight-bench-660-lbs-apacity-press-adjustable-workout-bench-for-home-gym-exercise-strength-training-5.jpg"
     },
     {
-        "id": 3,
+        "id": 4,
         "name": "Chest Press Machine",
         "required_time": 40,
         "for_age": "28-30",
         "image": "https://webapi-prod.technogym.com/dw/image/v2/BFLQ_PRD/on/demandware.static/-/Sites-tg-catalog-master/default/dwb01f9b1a/product/MG1500-NBGJV0/MG1500_purestrength_inclinechestpress_related_01_22.jpg?sw=680&sh=680"
     },
     {
-        "id": 3,
+        "id": 5,
         "name": "Roman Chair",
         "required_time": 45,
         "for_age": "30-35",
         "image": "https://www.fitnessequipmentperth.com.au/wp-content/uploads/2019/11/C616RC_2015-800x800.jpg"
     },
     {
-        "id": 3,
+        "id": 6,
         "name": "Leg Press Machine",
         "required_time": 50,
         "for_age": "20-35",
