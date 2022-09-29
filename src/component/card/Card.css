@@ -5,7 +5,8 @@
     border-radius: 10px;
     position: relative;
     padding: 20px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
 
 }
 
@@ -44,6 +45,7 @@
     .card {
         width: 100vw;
         margin-bottom: 20px;
+
 
     }
 }

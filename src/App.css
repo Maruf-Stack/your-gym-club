@@ -5,8 +5,9 @@
   /* display: grid;
   grid-template-columns: 3fr;
   gap: 40px; */
-  background-color: whitesmoke;
+  background-color: rgb(243, 238, 238);
   margin-bottom: 100px;
+  overflow: hidden;
 
 }
 
